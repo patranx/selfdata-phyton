@@ -1,0 +1,29 @@
+sim = "Surat Izin Mengemudi"
+tipe = "B2"
+noreg = "1014-0109-000xxx"
+ttl = "Pontianak, 14-09-2001"
+jeniskel = "B-Pria"
+nama = "Adi Saputra"
+alamat = """Gang Beringin 1 Dalam
+    Batulayang
+    Pontianak Utara"""
+status = "Pelajar"
+prov = "Kalbar"
+berlaku = "10-03-2025"
+#cetak
+print (sim)
+print("=============================================================")
+
+print('{:>53}'.format(tipe))
+print('{:>60}'.format(noreg))
+
+
+print("1. ", nama)
+print("2. ", ttl)
+print("3. ", jeniskel)
+print("4. ", alamat)
+print("5. ", status)
+print("6. ", prov)
+
+print('{:>60}'.format(berlaku))
+print("=============================================================")

@@ -1,0 +1,32 @@
+nik = "61710414090xxxxx"
+ttl = "Pontianak, 14-09-2001"
+jeniskel = "Laki-laki"
+goldar = "B"
+nama = "Adi Saputra"
+alamat = """Jalan Khatulistiwa Gang Beringin 1 Dalam,
+       RT/RW     :  02/09
+       Kel/Desa  :  Batu Layang
+       Kecamatan :  Pontianak Utara"""
+agama = "Islam"
+kewarga = "WNI"
+berlaku = "Seumur Hidup"
+kerja = "Karyawan Swasta"
+menikah =False
+#cetak
+print("=============================================================")
+
+print("NIK : ", nik)
+
+print("Nama             : ", nama)
+print("Tempat Tgl Lahir : ", ttl)
+print("Jenik Kelamin    : ", jeniskel)
+print("Alamat           : ", alamat)
+print("Agama            : ", agama)
+if(menikah):
+    print("Status           :  Menikah")
+else:
+    print("Status           :  Belum Menikah")
+print("Pekerjaan        : ", kerja)
+print("Kewarganegaraan  : ", kewarga)
+print("Berlaku Hingga   : ", berlaku)
+print("=============================================================")

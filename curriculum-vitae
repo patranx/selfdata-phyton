@@ -1,0 +1,56 @@
+cv = "Curriculum Vitae"
+edc = "Education"
+conedc = """
+- SMK Negeri 6 Pontianak, Majoring Multimedia
+- Digital Talent Scholarship, Junior Graphic Designer
+- Creator Muda Academy, Google"""
+acv = """
+- 3rd Place, LKS SMK 27 Prov. West Kalimantan
+"""
+exp = """
+- Trijaya Mandiri, as a Operator
+- Kimsi, as a Content Creator
+- Telkomsel Branch Pontianak, as a Content Creator
+"""
+ctc = """
+- +628 78 1661 8175 (Whatsapp)
+- @apatranx (Instagram/twitter)
+- ap47ra@gmail.com (email)
+"""
+tipe = "Graph Designer"
+noreg = "2019-Now"
+jeniskel = "Men"
+nama = "Adi Saputra"
+alamat = "Pontianak"
+nat = "Indonesia"
+
+#cetak
+print('{:>40}'.format(cv))
+print("=============================================================")
+
+print('{:>60}'.format(tipe))
+print('{:>60}'.format(noreg))
+
+
+print("Name        : ", nama)
+print("Address     : ", alamat)
+print("Nationality : ", nat)
+print("Gender      : ", jeniskel)
+print("=============================================================")
+print('{:>36}'.format(edc))
+print("=============================================================")
+print (conedc)
+print (" ")
+
+print("=============================================================")
+print('{:>38}'.format("Achievements"))
+print("=============================================================")
+print(acv)
+print("=============================================================")
+print('{:>36}'.format("Experience"))
+print("=============================================================")
+print (exp)
+print("=============================================================")
+print('{:>34}'.format("Contact"))
+print("=============================================================")
+print (ctc)
